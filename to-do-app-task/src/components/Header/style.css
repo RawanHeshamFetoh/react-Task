@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header , form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header> h1{
+    color: #2F80ED;
+    font-size: 48px;
+    margin: 50px 0 20px;
+}
+form{
+    width: 100%;
+}
+
+.title p , .title select{
+    background-color: #2F80ED;
+    border-top-left-radius:5px ;
+    border-top-right-radius: 5px;
+    width: 90px;
+    padding: 10px ;
+    color: white; 
+}
+.title p , .title select option, .title select{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.title{
+    margin: 15px 0;
+    width: 50%;
+}
+
+header input[type=text] , header textarea{
+    width: 100% !important;
+    margin: 0 auto;
+    height: 35px;
+    padding: 5px;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1) ;
+    border: 1px solid black;
+}
+input[type="submit"]{
+    background-color: #2F80ED;
+    color: white;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+}

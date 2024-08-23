@@ -1,0 +1,58 @@
+.card{
+    background-color: #FFF375;
+    padding: 20px;
+    width: 200px;
+    height: 190px;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.1) ,-2px -1px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px ;
+}
+.card >div > h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size:18px;
+    color: #000000DE;
+}
+.card p{
+    font-size:14px;
+    color: #0000005f;
+    margin: 10px 0;
+}
+
+.done{
+    text-decoration: line-through;
+    text-decoration-color:#0000005f ;
+    -moz-text-decoration-color:#0000005f ;
+}
+.btns{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    background-color: transparent;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+.delete{
+    color :#A0845B;
+    /* margin-right: 50px ; */
+}
+
+.edit{
+    color :#A3C686;
+}
+button:hover{
+cursor: pointer;
+}
+@media (max-width:1200px) {
+    .card{
+        width: 150px;
+    }
+}
+@media (max-width:850px) {
+    .card{
+        width: 100px;
+    }
+}
